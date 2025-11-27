@@ -1,4 +1,4 @@
-package com.example.roomdatabase.view.route
+package com.example.view.route
 
 import com.example.datasiswa.R
 import com.example.datasiswa.view.route.DestinasiNavigasi
