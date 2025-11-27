@@ -2,6 +2,7 @@ package com.example.datasiswa.viewmodel
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.getValue
 import androidx.lifecycle.ViewModel
 import com.example.datasiswa.repositori.RepositoriSiswa
 import com.example.datasiswa.room.Siswa
@@ -51,4 +52,10 @@ fun DetailSiswa.toSiswa(): Siswa = Siswa(
 fun Siswa.toUiStateSiswa(isEntryValid: Boolean = false): UIStateSiswa = UIStateSiswa(
     detailSiswa = this.toDetailSiswa(),
     isEntryValid = isEntryValid
+)
+
+fun Siswa.toDetailSiswa(): DetailSiswa = DetailSiswa(
+    id = id,
+    nama = nama,
+    alamat = alamat,
 )
