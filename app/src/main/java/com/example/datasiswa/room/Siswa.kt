@@ -5,5 +5,5 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "tblsiswa")
 data class Siswa (
-
+    @PrimaryKey(autoGenerate = true)
 )
