@@ -1,4 +1,8 @@
 package com.example.datasiswa.room
 
-class DatabaseSiswa {
-}
+import android.content.Context
+import androidx.room.Database
+import androidx.room.Room
+import androidx.room.RoomDatabase
+
+@Database(entities = [Siswa::class], version = 1, exportSchema = false)])
