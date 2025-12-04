@@ -45,7 +45,7 @@ import com.example.view.route.DestinasiHome
 @Composable
 fun HomeScreen(
     navigateToItemEntry: () -> Unit,
-    naivgateToItemUpdate: (Int) -> Unit,
+    navigateToItemUpdate: (Int) -> Unit,
     modifier: Modifier = Modifier,
     viewModel: HomeViewModel = viewModel(factory = PenyediaViewModel.Factory)
 ){
