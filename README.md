@@ -4,3 +4,9 @@ Halaman Entry
 
 Halaman Home
 <img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/c0a6ee09-924d-41b5-897f-3cc71a0965a8" />
+
+Halaman Detail Siswa
+<img width="1917" height="980" alt="Screenshot 2025-12-04 153141" src="https://github.com/user-attachments/assets/dd580a9e-8c31-42c8-8593-8ceb9d5698d2" />
+
+Halaman Edit Siswa
+<img width="1919" height="1023" alt="Screenshot 2025-12-04 154133" src="https://github.com/user-attachments/assets/89db6089-ae26-446b-895d-af9182761e72" />
